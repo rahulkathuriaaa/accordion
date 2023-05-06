@@ -23,9 +23,9 @@ const ExploreCard = ({ id, imgUrl, img, title, desc, prompt, index, active, hand
         {title}
       </h3>
     ) : (
-      <div className="absolute p-8 flex justify-start w-full flex-col rounded-b-[24px]"   >
-        <div
-          className={`absolute top-0 right-0 w-[120px] h-[120px] rounded-[24px] glassmorphism mb-[16px]`}
+      <div dir='rtl' className="absolute bottom-0 p-8 flex justify-start w-full flex-col rounded-b-[24px]"   >
+        <div dir='rtl'
+          className={`flex items-center inset-y-0 right-0 w-[120px] h-[120px] rounded-[24px] glassmorphism mb-[16px]`}
         >
           <img
             src={img}

@@ -23,9 +23,9 @@ const ExploreCard = ({ id, imgUrl, img, title, desc, prompt, index, active, hand
         {title}
       </h3>
     ) : (
-      <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col rounded-b-[24px]">
+      <div className="absolute p-8 flex justify-start w-full flex-col rounded-b-[24px]"   >
         <div
-          className={`${styles.flexCenter} w-[120px] h-[120px] rounded-[24px] glassmorphism mb-[16px]`}
+          className={`absolute top-0 right-0 w-[120px] h-[120px] rounded-[24px] glassmorphism mb-[16px]`}
         >
           <img
             src={img}
@@ -36,7 +36,7 @@ const ExploreCard = ({ id, imgUrl, img, title, desc, prompt, index, active, hand
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
-        <p className='text-white'>{desc}</p>
+        <p className='text-white text-left'>{desc}</p>
         <p className="font-normal text-[16px] leading-[20.16px] text-white ">
           {prompt}
         </p>

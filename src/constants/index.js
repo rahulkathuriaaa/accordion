@@ -4,7 +4,7 @@
       imgUrl: '/planet-01.png',
       img: '/more.png',
       title: 'Eat more plants',
-      desc: 'Shifting to a sustainable diet is a simple way to lighten your climate impact.',
+      desc: 'Shifting to a sustainable diet is a simple way to lighten your climate  impact.',
       prompt: 'Learn more'
     },
     {
